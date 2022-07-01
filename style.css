@@ -1,0 +1,884 @@
+*{
+/*   outline: solid 1px red; */
+/*   margin:0px; */
+
+}
+html, body {
+/*   height: 100%; */
+  width: 100%;
+  height:100%;
+  overflow-x:hidden;
+  margin:0px;
+  
+  
+}
+
+/*HOME PAGE CSS CODE */
+.mainimage{
+  position:relative;
+  top:80px;
+  left:0;
+  width:100%;
+}
+
+.mission{
+/*   background-color: #FF661F; */
+  background-image:linear-gradient(to bottom right,#FF9D0A, #FF580A);
+  opacity: .95;
+/*   margin-top:300px; */
+  position:relative;
+  top:45px;
+  height:375px;
+}
+
+.missionp{
+  font-size:30px;
+  color:#F5F5F5;
+  
+/*   font-family: 'Roboto', sans-serif; */
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  position:relative;
+  top:65px;
+  left:175px;
+  max-width: 75%;
+  text-align:center;
+  line-height:150%;
+}
+
+b{
+  color:black;
+}
+
+.abutton{
+  font-family: 'Roboto', sans-serif;
+  background-color:transparent;
+  border-radius:20px;
+  border-style:solid;
+  border-color:black;
+  font-weight: 700;
+  position:relative;
+  left:630px;
+  top:60px;
+  padding: 10px 40px;
+  text-align:center;
+  display: inline-block;
+  font-size:25px;
+}
+.facts{
+  background-color:#F5F5F5;
+  position:relative;
+  top:10px;
+  height:375px;
+}
+
+.factsintro{
+  font-family: 'Oswald', sans-serif;
+  font-size:35px;
+  position:relative;
+  bottom:-45px;
+  left:350px;
+  width:55%;
+}
+
+#fact{
+  color:#FF580A;
+  font-family: 'Courier Prime', monospace;
+  text-align:center;
+  font-size:25px;
+  width:40%;
+  position:relative;
+  bottom:-50px;
+  left:425px;
+}
+
+#factbutton{
+  font-family: 'Roboto', sans-serif;
+  background-color:transparent;
+  font-weight: 700;
+  position:relative;
+  left:620px;
+  bottom:-75px;
+  flex-wrap: wrap;
+  border-style:solid;
+  border-color:black;
+  border-radius:15px;
+  padding: 10px 40px;
+  text-align:center;
+  display: inline-block;
+  font-size:25px;
+}
+
+
+/* ABOUT CSS CODE */
+.aboutimage{
+  background-image:linear-gradient(to top right,#FF9D0A, #FF580A);
+  height:450px;
+}
+
+.about{
+  font-family: 'Oswald', sans-serif;
+  font-size:35px;
+  color:white;
+  position:relative;
+  top:220px;
+  left:660px;
+}
+
+.purpose{
+  font-family: 'Roboto', sans-serif;
+  font-size:16px;
+  position:relative;
+  left:275px;
+  top:50px;
+  width:65%;
+  line-height:150%;
+}
+
+.visiontitle{
+  font-family: 'Oswald', sans-serif;
+  font-size:30px;
+  position:relative;
+  left:275px;
+  top:75px;
+  width:15%;
+}
+
+.vision{
+  font-family: 'Roboto', sans-serif;
+  font-size:16px;
+  position:relative;
+  left:275px;
+  top:75px;
+  width:65%;
+  line-height:150%;
+}
+
+.aimstitle{
+  font-family: 'Oswald', sans-serif;
+  font-size:30px;
+  position:relative;
+  left:275px;
+  top:75px;
+  width:15%;
+}
+
+.aims{
+  font-family: 'Roboto', sans-serif;
+  font-size:16px;
+  position:relative;
+  left:275px;
+  top:75px;
+  width:64%;
+  line-height:150%;
+}
+
+/* GALLERY CSS CODE */
+.gallery{
+  font-family: 'Oswald', sans-serif;
+  font-size:35px;
+  position:relative;
+  top:100px;
+  left:600px;
+  text-align:center;
+  width:15%;
+}
+
+.gpintro{
+  font-family: 'Roboto', sans-serif;
+  font-size:16px;
+  text-align:center;
+  position:relative;
+  top:100px;
+  left:350px;
+  width:50%;
+  line-height:150%;
+}
+
+.triggerwarning{
+  color:#FF580A;
+  font-family: 'Courier Prime', monospace;
+  font-size:16px;
+  text-align:center;
+  position:relative;
+  top:100px;
+  left:350px;
+  width:50%;
+}
+
+.massshooting{
+  position:relative;
+  left:125px;
+  top:100px;
+}
+
+.buffaloms{
+  font-family: 'Roboto', sans-serif;
+  font-size:14px;
+  position:relative;
+  top:100px;
+  left:125px;
+  width:40%;
+}
+
+.vegasshooting{
+  -webkit-filter: grayscale(100%);
+  position:relative;
+  left:125px;
+  top:150px;
+}
+
+.vegasms{
+  font-family: 'Roboto', sans-serif;
+  font-size:14px;
+  position:relative;
+  top:150px;
+  left:125px;
+  width:35%;
+}
+
+.walmartshooting{
+  -webkit-filter: grayscale(100%);
+  position:relative;
+  left:225px;
+  top:150px;
+}
+
+.walmartms{
+  font-family: 'Roboto', sans-serif;
+  font-size:14px;
+  position:relative;
+  top:88px;
+  left:780px;
+  width:35%;
+}
+
+.vtechshooting{
+  -webkit-filter: grayscale(100%);
+  position:relative;
+  top:175px;
+  left:425px;
+}
+
+.vtechms{
+  font-family: 'Roboto', sans-serif;
+  font-size:14px;
+  position:relative;
+  top:175px;
+  left:425px;
+  width:30%;
+}
+
+.schoolblurb{
+  color:#FF580A;
+  font-family: 'Courier Prime', monospace;
+  font-size:16px;
+  text-align:center;
+  position:relative;
+  top:200px;
+  left:350px;
+  width:50%;
+  line-height:150%;
+}
+
+.sandyhookshooting{
+  -webkit-filter: grayscale(100%);
+  position:relative;
+  left:125px;
+  top:250px;
+}
+
+.sandyhookms{
+  font-family: 'Roboto', sans-serif;
+  font-size:14px;
+  position:relative;
+  top:250px;
+  left:125px;
+  width:30%;
+}
+
+.uvaldeshooting{
+  -webkit-filter: grayscale(100%);
+  position:relative;
+  left:225px;
+  top:250px;
+}
+
+.uvaldems{
+  font-family: 'Roboto', sans-serif;
+  font-size:14px;
+  position:relative;
+  top:204px;
+  left:780px;
+  width:30%;
+}
+
+.parklandshooting{
+  -webkit-filter: grayscale(100%);
+  position:relative;
+  left:125px;
+  top:250px;
+}
+
+.parklandms{
+  font-family: 'Roboto', sans-serif;
+  font-size:14px;
+  position:relative;
+  top:250px;
+  left:125px;
+  width:30%;
+}
+
+.columbineshooting{
+  -webkit-filter: grayscale(100%);
+  position:relative;
+  left:225px;
+  top:250px;
+}
+
+.columbinems{
+  font-family: 'Roboto', sans-serif;
+  font-size:14px;
+  position:relative;
+  top:188px;
+  left:780px;
+  width:30%;
+}
+
+.atlantashooting{
+  -webkit-filter: grayscale(100%);
+  position:relative;
+  top:275px;
+  left:125px;
+}
+
+.atlantams{
+  font-family: 'Roboto', sans-serif;
+  font-size:14px;
+  position:relative;
+  top:275px;
+  left:125px;
+  width:40%;
+}
+
+.biasblurb{
+  color:#FF580A;
+  font-family: 'Courier Prime', monospace;
+  font-size:16px;
+  text-align:center;
+  position:relative;
+  top:300px;
+  left:350px;
+  width:50%;
+  line-height:150%;
+}
+
+.charlestonshooting{
+  -webkit-filter: grayscale(100%);
+  position:relative;
+  left:125px;
+  top:350px;
+}
+
+.charlestonms{
+  font-family: 'Roboto', sans-serif;
+  font-size:14px;
+  position:relative;
+  top:350px;
+  left:125px;
+  width:30%;
+}
+
+.pulseshooting{
+  -webkit-filter: grayscale(100%);
+  position:relative;
+  left:225px;
+  top:350px;
+}
+
+.pulsesms{
+  font-family: 'Roboto', sans-serif;
+  font-size:14px;
+  position:relative;
+  top:288px;
+  left:780px;
+  width:30%;
+}
+
+/* LEARN MORE CSS CODE */
+.learnimage{
+  background-image:linear-gradient(to top right,#FF9D0A, #FF580A);
+  height:450px;
+}
+
+.learntitle{
+  font-family: 'Oswald', sans-serif;
+  font-size:35px;
+  color:white;
+  position:relative;
+  top:220px;
+  left:660px;
+  width:15%;
+}
+
+.learn{
+/*   background-color:blue; */
+  position:relative;
+  top:-15px;
+/*   padding-top:50px; */
+/*   padding-bottom:25px; */
+}
+
+.learnintro{
+  font-family: 'Roboto', sans-serif;
+  font-size:16px;
+  position:relative;
+  top:85px;
+  left:275px;
+  width:25%;
+  line-height:150%;
+}
+
+.ytvid{
+  position:relative;
+  top:-250px;
+  left:785px;
+}
+
+.ytdescription{
+  font-family: 'Roboto', sans-serif;
+  font-size:14px;
+  position:relative;
+  top:-250px;
+  left:785px;
+  width:30%;
+}
+
+.learninfo{
+  background-color:#EEF7FC;
+  position:relative;
+  top:-100px;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+.mentalhealthtitle{
+  font-family: 'Oswald', sans-serif;
+  font-size:30px;
+  position:relative;
+  left:275px;
+}
+
+.mentalhealth{
+  font-family: 'Roboto', sans-serif;
+  font-size:16px;
+  line-height:150%;
+  position:relative;
+  left:275px;
+  width:65%;
+}
+
+.causetitle{
+  font-family: 'Oswald', sans-serif;
+  font-size:30px;
+  position:relative;
+  left:275px;
+}
+
+.cause{
+  font-family: 'Roboto', sans-serif;
+  font-size:16px;
+  line-height:150%;
+  position:relative;
+  left:275px;
+  width:65%;
+}
+
+.communitiestitle{
+  font-family: 'Oswald', sans-serif;
+  font-size:30px;
+  position:relative;
+  left:275px;
+}
+
+.communities{
+  font-family: 'Roboto', sans-serif;
+  font-size:16px;
+  line-height:150%;
+  position:relative;
+  left:275px;
+  width:65%;
+}
+
+.solutionstitle{
+  font-family: 'Oswald', sans-serif;
+  font-size:30px;
+  position:relative;
+  left:275px;
+  top:-50px;
+}
+
+.solutions{
+  font-family: 'Roboto', sans-serif;
+  font-size:16px;
+  line-height:150%;
+  position:relative;
+  left:275px;
+  top:-50px;
+  width:64%;
+}
+
+.law{
+  background-color:#EEF7FC;
+/*   background-color:#F6F4F4; */
+  padding-top:50px;
+  padding-bottom:50px;
+  position:relative;
+  top:25px;
+}
+
+.newlawtitle{
+  font-family: 'Oswald', sans-serif;
+  font-size:30px;
+  position:relative;
+  left:275px;
+}
+
+.newlaw{
+  font-family: 'Roboto', sans-serif;
+  font-size:16px;
+  line-height:150%;
+  position:relative;
+  left:275px;
+  width:65%;
+}
+
+/* TAKE ACTION CSS CODE */
+.actionimage{
+  background-image:linear-gradient(to top right,#FF9D0A, #FF580A);
+  height:450px;
+}
+
+.action{
+  font-family: 'Oswald', sans-serif;
+  font-size:35px;
+  color:white;
+  text-align:center;
+  position:relative;
+  top:220px;
+  left:610px;
+  width:17%;
+}
+
+.actionintro{
+  font-family: 'Roboto', sans-serif;
+  font-size:16px;
+  line-height:150%;
+  text-align:center;
+  position:relative;
+  left:260px;
+  top:50px;
+  width:65%;
+}
+
+.edutitle{
+  font-family: 'Oswald', sans-serif;
+  font-size:30px;
+  width:17%;
+  text-align:center;
+  position:relative;
+  left:610px;
+  top:100px;
+}
+
+.edu{
+  font-family: 'Roboto', sans-serif;
+  font-size:16px;
+  line-height:150%;
+  text-align:center;
+  position:relative;
+  left:260px;
+  top:100px;
+  width:65%;
+}
+
+.edu1{
+  text-decoration: none;
+  color:#FF580A;
+  font-family: 'Oswald', sans-serif;
+  font-size:25px;
+  display:block;
+  text-align:center;
+  position:relative;
+  left:260px;
+  top:125px;
+  width:17%;
+}
+
+.edu2{
+  text-decoration: none;
+  color:#FF580A;
+  font-family: 'Oswald', sans-serif;
+  font-size:25px;
+  display:block;
+  text-align:center;
+  position:relative;
+  left:610px;
+  top:88px;
+  width:17%;
+}
+
+.edu3{
+  text-decoration: none;
+  color:#FF580A;
+  font-family: 'Oswald', sans-serif;
+  font-size:25px;
+  display:block;
+  text-align:center;
+  position:relative;
+  left:950px;
+  top:51px;
+  width:17%;
+}
+
+.edu4{
+  text-decoration: none;
+  color:#FF580A;
+  font-family: 'Oswald', sans-serif;
+  font-size:25px;
+  display:block;
+  text-align:center;
+  position:relative;
+  left:260px;
+  top:100px;
+  width:17%;
+}
+
+.edu5{
+  text-decoration: none;
+  color:#FF580A;
+  font-family: 'Oswald', sans-serif;
+  font-size:25px;
+  display:block;
+  text-align:center;
+  position:relative;
+  left:610px;
+  top:26px;
+  width:17%;
+}
+
+.edu6{
+  text-decoration: none;
+  color:#FF580A;
+  font-family: 'Oswald', sans-serif;
+  font-size:25px;
+  display:block;
+  text-align:center;
+  position:relative;
+  left:950px;
+  top:-11px;
+  width:17%;
+}
+
+.donationtitle{
+  font-family: 'Oswald', sans-serif;
+  font-size:30px;
+  text-align:center;
+  width:17%;
+  position:relative;
+  left:610px;
+  top:50px;
+}
+
+.donation{
+  font-family: 'Roboto', sans-serif;
+  font-size:16px;
+  line-height:150%;
+  text-align:center;
+  position:relative;
+  left:260px;
+  top:50px;
+  width:65%;
+}
+
+.donate1{
+  text-decoration: none;
+  color:#FF580A;
+  font-family: 'Oswald', sans-serif;
+  font-size:25px;
+  display:block;
+  text-align:center;
+  position:relative;
+  left:260px;
+  top:75px;
+  width:17%;
+}
+
+.donate2{
+  text-decoration: none;
+  color:#FF580A;
+  font-family: 'Oswald', sans-serif;
+  font-size:25px;
+  display:block;
+  text-align:center;
+  position:relative;
+  left:610px;
+  top:38px;
+  width:17%;
+}
+
+.donate3{
+  text-decoration: none;
+  color:#FF580A;
+  font-family: 'Oswald', sans-serif;
+  font-size:25px;
+  display:block;
+  text-align:center;
+  position:relative;
+  left:950px;
+  top:1px;
+  width:17%;
+}
+
+.donate4{
+  text-decoration: none;
+  color:#FF580A;
+  font-family: 'Oswald', sans-serif;
+  font-size:25px;
+  display:block;
+  text-align:center;
+  position:relative;
+  left:260px;
+  top:50px;
+  width:17%;
+}
+
+.donate5{
+  text-decoration: none;
+  color:#FF580A;
+  font-family: 'Oswald', sans-serif;
+  font-size:25px;
+  display:block;
+  text-align:center;
+  position:relative;
+  left:610px;
+  top:-24px;
+  width:17%;
+}
+
+.donate6{
+  text-decoration: none;
+  color:#FF580A;
+  font-family: 'Oswald', sans-serif;
+  font-size:25px;
+  display:block;
+  text-align:center;
+  position:relative;
+  left:950px;
+  top:-61px;
+  width:17%;
+}
+
+/* NAV BAR CSS CODE */
+.navbar{
+  overflow:hidden;
+  background-color:#F5F5F5;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:9999;
+  width:100%;
+  height:80px;
+  border-bottom:10px outset black;
+}
+
+.navbar a{
+  text-decoration: none;
+  font-size: 30px;
+  /*font-family: 'League Gothic', sans-serif;  too agressive*/
+/*   font-family: 'Roboto', sans-serif; */
+/*   font-family: 'Rubik', sans-serif; */
+  font-family: 'Oswald', sans-serif;
+  position:relative;
+  top:20px;
+  padding: .5cm;
+  color: #04030f;
+}
+
+#action{
+  color: #FF580A; 
+}
+#navname{
+  text-decoration:none;
+  font-weight:400;
+  font-size:35px;
+  padding: 10cm;
+  padding-left: 1cm;
+}
+
+/* FOOTER CSS CODE */
+#homebottombar{
+  position:relative;
+  height:200px;
+  background-color: black;
+} /*HELP*/
+
+#aboutbottombar{
+  position:relative;
+  top:200px;
+  height:200px;
+  background-color: black;
+}
+
+#actionbottombar{
+  position:relative;
+  top:50px;
+  height:225px;
+  background-color: black;
+}
+
+#gallerybottombar{
+  position:relative;
+  top:350px;
+  height:200px;
+  background-color: black;
+}
+
+#learnbottombar{
+  position:relative;
+  top:20px;
+  height:225px;
+  background-color: black;
+}
+
+.homecredit{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size:12px;
+  line-height:150%;
+  text-align:center;
+}
+.lmstitle{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size:12px;
+  line-height:150%;
+  text-align:center;
+}
+.lms{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size:12px;
+  text-decoration:none;
+  line-height:150%;
+  display:block;
+/*   text-decoration:none; */
+  text-align:center;
+}
+.developcred{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size:12px;
+  line-height:150%;
+  text-align:center;
+}
