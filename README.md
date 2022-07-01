@@ -6,4 +6,4 @@ When I was younger, I remember the Sandy Hook shootings and they were quite impa
 the same age as many of the kids.
 In addition, as I've grown up I've realized the disproportianate impact of gun violence on those who share my identity - Black Americans. 
 Over the years, these two factors have pulled me to spend extra moments learning and focusing on the impacts of gun violence something I am proud to 
-be able to bring awarness to through this project. 
+be able to bring awareness to through this project. 
